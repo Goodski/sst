@@ -1,0 +1,40 @@
+/* YOUR CUSTOM STYLES */
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+
+
+.main-text
+{
+    position: absolute;
+    top: 50px;
+    width: 80%;
+    color: #FFF;
+}
+#carousel-example-1z{
+    margin-top: 100px;
+}
+.navbar-brand > img{
+
+    max-height : 70px;
+   
+}
+.d-block{
+    max-height: 600px;
+    overflow: hidden;
+}
+.divider_heading{
+font-family: 'Shrikhand', cursive;
+font-size: 40pt;
+}
+.tab-pane{
+
+    min-height: 500px;
+}
+.massage-menu{
+    margin-top: 100px;
+}
+.divider{
+    height: 10px;
+    margin-bottom: 10px;
+}
