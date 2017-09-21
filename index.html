@@ -29,7 +29,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto ">
+                    <ul class="navbar-nav mr-auto smooth-scroll list-unstyled">
                         <li class="nav-item active">
                             <a class="nav-link purple-text" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
@@ -37,7 +37,7 @@
                             <a class="nav-link purple-text" href="#massage_101">Massage101</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link purple-text" href="#">Meet the therapists</a>
+                            <a class="nav-link purple-text" href="#mtt">Meet the Therapists</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link purple-text" href="#">Book a Massage</a>
@@ -124,11 +124,18 @@
             </nav>
             <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                    <div><img src="img/sweedish.jpg" alt="stock massage photo" class="img-fluid w-25 justify-content-cneter"> </div>
-                    Massage is the most common and best-known type of massage.  If it’s your first time at the spa or you don’t get a massage very often, Swedish massage is the perfect massage for you.  For deeper work and if you can tolerate more pressure, even momentary discomfort, to get relief from muscle pain, it’s better to book a deep tissue massage.
+                    <div class="col">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-4"><img src="img/sweedish.jpg" alt="stock massage photo" class="img-fluid ">
+                            </div> 
+                            <div class="col-4 h-25 d-flex align-items-center "><h5>Massage is the most common and best-known type of massage.  If it’s your first time at the spa or you don’t get a massage very often, Swedish massage is the perfect massage for you.  For deeper work and if you can tolerate more pressure, even momentary discomfort, to get relief from muscle pain, it’s better to book a deep tissue massage.</h5>
+                            </div>
+                        </div>
+                        
+                   </div>
                 </div>
                 <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                    Deep tissu e massage is designed to relieve severe tension in the muscle and the connective tissue.  This type of massage focuses on the muscles located below the surface of the top muscles.  Deep tissue massage is often recommended for individuals who experience constant pain, are involved in heavy physical activity, and patients who have sustained physical injury.  
+                    Deep tissue massage is designed to relieve severe tension in the muscle and the connective tissue.  This type of massage focuses on the muscles located below the surface of the top muscles.  Deep tissue massage is often recommended for individuals who experience constant pain, are involved in heavy physical activity, and patients who have sustained physical injury.  
                 </div>
                 <div class="tab-pane fade" id="nav-sport" role="tabpanel" aria-labelledby="nav-profile-tab">
                 Sports Massage
@@ -144,9 +151,9 @@
             </div>
             
         </div>
-        <div class="w-100 bg-pink pink lighten-5 divider"> </div>
-        <div class="col-align-self-center">
-            <h1 class="divider_heading">Meet the Therapists</h1>
+        <div class="w-100 bg-pink pink lighten-5 divider" id="#mtt"> </div>
+        <div class="col-align-self-center" >
+            <h1 class="divider_heading " >Meet the Therapists</h1>
             <nav class="nav nav-tabs" id="myTab" role="tablist">
                 <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-norma" role="tab" aria-controls="nav-home" aria-expanded="true">Norma</a>
                 <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-steph" role="tab" aria-controls="nav-profile">Stephanie</a>
